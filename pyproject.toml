@@ -1,0 +1,9 @@
+[project]
+name = "market-risk-engine"
+version = "0.2.0"
+description = "Multi-method VaR/ES with rolling backtesting, risk decomposition and stress testing"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
